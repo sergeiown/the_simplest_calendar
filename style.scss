@@ -1,0 +1,53 @@
+// Colors
+$primary-color: #268bd2;
+$weekend-color: #ff4136;
+$text: #ffffff;
+$border: #cccccc;
+
+// Calendar styles
+#calendar {
+  font-family: Arial, sans-serif;
+  max-width: 25rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+
+  button {
+    background-color: $primary-color;
+    color: $text;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: darken($primary-color, 10%);
+    }
+  }
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+
+  th,
+  td {
+    border: 1px solid $border;
+    padding: 10px;
+  }
+
+  th {
+    background-color: $primary-color;
+    color: $text;
+  }
+
+  .weekend {
+    color: $weekend-color;
+  }
+}

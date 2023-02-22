@@ -1,0 +1,41 @@
+#calendar {
+  font-family: Arial, sans-serif;
+  max-width: 25rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+#header button {
+  background-color: #268bd2;
+  color: #ffffff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#header button:hover {
+  background-color: #1e6ea7;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+table th,
+table td {
+  border: 1px solid #cccccc;
+  padding: 10px;
+}
+table th {
+  background-color: #268bd2;
+  color: #ffffff;
+}
+table .weekend {
+  color: #ff4136;
+}
