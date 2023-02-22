@@ -36,7 +36,8 @@ table th,
 table td {
   border: 1px solid #cccccc;
   padding: 0.7rem;
-  width: 3.875rem;
+  max-width: 2rem;
+  min-width: 2rem;
 }
 table th {
   background-color: #268bd2;

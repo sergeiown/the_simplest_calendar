@@ -46,7 +46,8 @@ table {
     td {
         border: 1px solid $border;
         padding: 0.7rem;
-        width: 3.875rem;
+        max-width: 2rem;
+        min-width: 2rem;
     }
 
     th {
