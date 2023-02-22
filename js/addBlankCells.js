@@ -3,7 +3,7 @@ export function addBlankCells(month, year, i, weekRow) {
         const firstDay = new Date(year, month, 1).getDay();
 
         // if the first day of the month is not a Monday add blank cells
-        for (let j = 0; j < firstDay; j++) {
+        for (let j = 1; j < firstDay; j++) {
             const emptyCell = document.createElement('td');
             weekRow.appendChild(emptyCell);
         }
