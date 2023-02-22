@@ -3,8 +3,12 @@ html {
 }
 
 #calendar {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
   font-family: Arial, sans-serif;
   max-width: 25rem;
+  min-width: 25rem;
   margin: 0 auto;
   text-align: center;
 }
