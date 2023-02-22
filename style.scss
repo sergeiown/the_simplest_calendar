@@ -63,4 +63,8 @@ table {
         font-weight: bolder;
         color: $current-color;
     }
+
+    .empty {
+        border-width: 0;
+    }
 }

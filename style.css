@@ -50,3 +50,6 @@ table .current {
   font-weight: bolder;
   color: #193549;
 }
+table .empty {
+  border-width: 0;
+}

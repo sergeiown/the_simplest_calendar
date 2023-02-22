@@ -9,6 +9,7 @@ export function addBlankCells(month, year, i, weekRow) {
         for (let j = 1; j < firstDay; j++) {
             const emptyCell = document.createElement('td');
             weekRow.appendChild(emptyCell);
+            emptyCell.classList.add('empty');
         }
     }
 }
