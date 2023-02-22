@@ -10,6 +10,7 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 10px;
+  color: #193549;
 }
 #header button {
   background-color: #268bd2;
@@ -38,4 +39,9 @@ table th {
 }
 table .weekend {
   color: #ff4136;
+}
+table .today,
+table .current {
+  font-weight: bold;
+  color: #193549;
 }
