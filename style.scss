@@ -64,6 +64,10 @@ table {
         color: $current-color;
     }
 
+    .today {
+        border: 2px solid $primary-color;
+    }
+
     .empty {
         border-width: 0;
     }
