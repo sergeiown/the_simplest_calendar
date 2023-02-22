@@ -43,15 +43,15 @@ table th {
   background-color: #268bd2;
   color: #ffffff;
 }
+table td {
+  color: #193549;
+}
 table .weekend {
   color: #ff4136;
 }
-table .today,
-table .current {
+table .today {
   font-weight: bolder;
   color: #193549;
-}
-table .today {
   border: 2px solid #268bd2;
 }
 table .empty {

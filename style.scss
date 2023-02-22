@@ -55,17 +55,17 @@ table {
         color: $text;
     }
 
+    td {
+        color: $current-color;
+    }
+
     .weekend {
         color: $weekend-color;
     }
 
-    .today,
-    .current {
+    .today {
         font-weight: bolder;
         color: $current-color;
-    }
-
-    .today {
         border: 2px solid $primary-color;
     }
 
